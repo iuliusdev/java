@@ -1,0 +1,21 @@
+public class Deutschland { // Klasse 'Deutschland'
+    String bundesland; // Attribut
+    String hauptstadt; // Attribut
+    String domain; // Attribut
+    int einwohner; // Attribut
+
+    public static void main(String[] args) {
+        Deutschland gebietskoerperschaft; // Referenzvariable der Klasse 'Deutschland'
+        gebietskoerperschaft = new Deutschland(); // Erstellung eines neuen Objekts der Klasse 'Deutschland'
+
+        gebietskoerperschaft.bundesland = "Sachsen-Anhalt"; // Wertzuweisung
+        gebietskoerperschaft.hauptstadt = "Magdeburg"; // Wertzuweisung
+        gebietskoerperschaft.domain = "sachsen-anhalt.de"; // Wertzuweisung
+        gebietskoerperschaft.einwohner = 2200000; // Wertzuweisung
+
+        System.out.println("\n Bundesland: " + gebietskoerperschaft.bundesland); // Ausgabe
+        System.out.println("\n Hauptstadt: " + gebietskoerperschaft.hauptstadt); // Ausgabe
+        System.out.println("\n Domain: " + gebietskoerperschaft.domain); // Ausgabe
+        System.out.println("\n Einwohner: " + gebietskoerperschaft.einwohner); // Ausgabe
+    }
+}
